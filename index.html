@@ -4,28 +4,65 @@
 	<meta charset="UTF-8">
 	<title>Box Model</title>
 	<style>
+	body{
+		margin: 0;
+	}
 		.box{
 			height: 100px;
 			float: left;
 			width: 25%;
-			padding: 5px;
-			background-color: gray;
+			padding: 20px;
 			box-sizing: border-box;
+			text-align: center;
 		}
-		.box2{
-			height: 100px;
+		.logo{
+			margin-bottom: 20px;
+		}
+		.navbar{
+			width: 100%;
+		}
+		ul{
+			list-style:none;
+			margin:0px;
+		}
+		li{
 			float: left;
-			width: 25%;
-			padding: 5px;
-			background-color: blue;
-			box-sizing: border-box;
+			padding: 30px;
+			background-color: #87CF7A;
+		}
+
+		.row {
+			clear: both;
 		}
 	</style>
 </head>
 <body>
-	<div class="box"></div>
-	<div class="box2"></div>
-	<div class="box"></div>
-	<div class="box2"></div>
+	<nav class="navbar">
+		<ul>
+			<li>boton1</li>
+			<li>boton1</li>
+			<li>boton1</li>
+			<li>boton1</li>
+
+		</ul>
+	</nav>
+	<div class="row">
+		<div class="box">
+			<img class="logo" src="images/logo.png" alt="logo">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias placeat doloribus dolore eveniet eligendi, asperiores reprehenderit expedita quaerat ad incidunt maxime, iure, iste ut. Repellat adipisci ad nulla eveniet debitis.
+		</div>
+		<div class="box">
+			<img class="logo" src="images/logo.png" alt="logo">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ullam soluta magni voluptatem ut maiores optio, enim consequuntur ea doloremque vitae dicta itaque iusto necessitatibus hic ipsam. Quibusdam quod, sit!
+		</div>
+		<div class="box">
+			<img class="logo" src="images/logo.png" alt="logo">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aperiam repellendus voluptatem molestiae vero alias laborum sit assumenda omnis obcaecati maxime soluta odio quae, beatae repudiandae quisquam ipsam rem quam.
+		</div>
+		<div class="box">
+			<img class="logo" src="images/logo.png" alt="logo">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe alias perspiciatis debitis doloremque, dignissimos nulla fugiat tempora adipisci neque sunt, sed dicta numquam dolores architecto velit sequi blanditiis ipsum obcaecati!
+		</div>
+	</div>
 </body>
 </html>
